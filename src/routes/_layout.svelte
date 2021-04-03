@@ -1,6 +1,5 @@
 <script>
 	import Navigation from '../components/Navigation.svelte';
-	import logo from '../../images/logo.jpg';
 	export let segment;
 </script>
 
@@ -10,13 +9,16 @@
 	}
 </style>
 
+
 <section class="hero is-medium">
 	<div class="container">
-		<div class="hero-head">
+		<div class="hero-head">			
 			<Navigation {segment}/>
 		</div>
-		<img alt="Gazetka firmowa" src="{logo}">
+		<img alt="Gazetka firmowa" src="logo.jpg">
 	</div>
 	</section>
 
-<slot></slot>
+<div>
+	<slot></slot>
+</div>

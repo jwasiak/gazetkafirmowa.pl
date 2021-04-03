@@ -3,7 +3,7 @@ export let segment;
 
 let active = false;
 
-function handleClick(ev) {
+function handleClick() {
 	active = !active
 }
 		
@@ -12,7 +12,6 @@ function handleClick(ev) {
 <nav class="navbar" role="navigation" aria-label="main navigation">
 	
 	<div class="navbar-brand">
-	
 		<a role="button" class="navbar-burger" class:is-active="{active}" aria-label="menu" aria-expanded="false" on:click={handleClick} >
 			<span aria-hidden="true" ></span>
 			<span aria-hidden="true" ></span>
@@ -23,7 +22,7 @@ function handleClick(ev) {
 	<div class="navbar-menu" class:is-active="{active}">
 		<div class="navbar-end">
 			
-			<a class="navbar-item" class:is-active="{!segment}" href=".">
+			<a  class="navbar-item" class:is-active="{!segment}" href=".">
 				O firmie 
 			</a>
 		

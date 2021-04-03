@@ -23,7 +23,7 @@
 			</p>
 			
 			<p class="block is-size-5">
-				Wszystkie informacje na temat kolportażu oraz zdjęcia zamieszczamy na naszym <a href="https://www.facebook.com/gazetka.firmowa/" target="_blank">facebooku</a>.
+				Wszystkie informacje na temat kolportażu oraz zdjęcia zamieszczamy na naszym <a rel=external href="https://www.facebook.com/gazetka.firmowa/" target="_blank">facebooku</a>.
 			</p>
 		
 		</div>
