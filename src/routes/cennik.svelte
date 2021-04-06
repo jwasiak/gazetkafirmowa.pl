@@ -20,7 +20,7 @@
 			
 			<tfoot>
 				<tr >
-				  	<td colspan="3" class="is-size-7 has-text-link">Prezentowane ceny dotyczą jednego modułu. Na pierwszej stronie (okładka) cena jest o 25% większa.</td>
+				  	<td colspan="3" class="is-size-7 has-text-link">Prezentowane ceny dotyczą jednego modułu. Na pierwszej stronie (okładka) cena jest o 25% wyższa.</td>
 				</tr>
 			  </tfoot>
 
