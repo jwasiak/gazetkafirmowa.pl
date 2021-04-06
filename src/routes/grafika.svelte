@@ -85,6 +85,6 @@ function showModal(){
 <div class="modal" class:is-active="{modal}" on:click={hideModal}>
 	<div class="modal-background"></div>
 	<div class="modal-content">
-		<img src="example.jpg" alt="przykładowa strona">
+		<img src="gazetkafirmowa-example.jpg" alt="przykładowa strona">
 	</div>
 </div>

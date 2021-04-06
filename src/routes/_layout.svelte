@@ -15,7 +15,7 @@
 		<div class="hero-head">			
 			<Navigation {segment}/>
 		</div>
-		<img alt="Gazetka firmowa" src="logo.jpg">
+		<img alt="Gazetka firmowa - logo" src="gazetkafirmowa-logo.png">
 	</div>
 	</section>
 
