@@ -33,7 +33,7 @@ function showModal(){
 		color: white;
 		font-weight: 700;
 		/* background-color: #d61f11; */
-		margin: 1rem;
+		margin: 0.5rem;
 		text-align: center;
 		display: flex;
 		flex-direction: column;
