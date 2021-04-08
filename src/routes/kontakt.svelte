@@ -95,7 +95,7 @@ onMount(() => {
 		
 		<div class="box">
 		
-			<form action="https://formspree.io/f/meqvqjvr" method="post">
+			<form action="https://formspree.io/f/xzbybjej" method="post">
 			
 				<div class="field">
 					<label class="label" for="email">E-mail</label>

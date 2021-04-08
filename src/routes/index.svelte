@@ -23,6 +23,16 @@
 			</p>
 			
 			<p class="block is-size-5">
+				Kolportaż wykonywany jest bezpośrednio do skrzynek mieszkańców powiatów Krosna, Jasła, Sanoka, Gorlic, Brzozowa i Rzeszowa.
+			</p>
+			
+			<p class="block is-size-5">
+				Gazetka Firmowa jest dostarczana bezpłatnie do domów jednorodzinnych, bloków, firm, instytucji, sklepów oraz biur.
+			</p>
+			
+			
+			
+			<p class="block is-size-5">
 				Wszystkie informacje na temat kolportażu oraz zdjęcia zamieszczamy na naszym <a rel=external href="https://www.facebook.com/gazetka.firmowa/" target="_blank">facebooku</a>.
 			</p>
 		
