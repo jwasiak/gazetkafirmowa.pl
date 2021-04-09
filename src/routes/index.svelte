@@ -33,7 +33,7 @@
 			
 			
 			<p class="block is-size-5">
-				Wszystkie informacje na temat kolportażu oraz zdjęcia zamieszczamy na naszym <a rel=external href="https://www.facebook.com/gazetka.firmowa/" target="_blank">facebooku</a>.
+				Wszystkie informacje na temat kolportażu oraz zdjęcia zamieszczamy na naszym <a rel=external href="https://www.facebook.com/Gazetka-Firmowa-119906999852723/?modal=admin_todo_tour" target="_blank">facebooku</a>.
 			</p>
 		
 		</div>
