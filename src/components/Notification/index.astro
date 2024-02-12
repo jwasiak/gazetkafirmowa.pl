@@ -1,0 +1,31 @@
+---
+const { message, type } = Astro.props;
+
+const errorClass = type === "error" ? "is-danger" : null;
+const infoClass = type === "info" ? "is-success" : null;
+
+const displayClass = !(errorClass || infoClass) ? "hidden" : null;
+---
+
+<style>
+  .hidden {
+    display: none;
+  }
+</style>
+
+<div class:list={["notification", infoClass, errorClass, displayClass]}>
+  <button class="delete"></button>
+  {message}
+</div>
+
+<script>
+  const btn = document.querySelector("button.delete")!;
+  const notification = document.querySelector("div.notification")!;
+
+  btn.addEventListener("click", () => {
+    notification.classList.add("hidden");
+    notification.classList.remove("is-success");
+    notification.classList.remove("is-danger");
+    notification.removeChild(notification.lastChild!);
+  });
+</script>

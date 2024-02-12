@@ -1,0 +1,35 @@
+---
+import Main from "../layouts/Main.astro";
+import ContactForm from "../components/ContactForm/index.astro";
+---
+
+<Main title="Kontakt">
+  <section class="section">
+    <div class="container">
+      <h1 class="title">Kontakt</h1>
+      <ContactForm />
+
+      <div class="box">
+        <div class="columns">
+          <div class="column">
+            <p>
+              tel. 667 386 830, 605 934 454 <br />
+              38-400 Krosno, ul. Tysiąclecia 14/20 <br />
+              e-mail: <a href="mailto:gazetkafirmowa@wp.pl"
+                >gazetkafirmowa@wp.pl</a
+              >
+            </p>
+          </div>
+          <div class="column">
+            <div id="map" style="height: 500px;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</Main>
+
+
+<script>
+  import "../mapa";
+</script>

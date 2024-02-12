@@ -1,0 +1,49 @@
+---
+import Notification from "../Notification/index.astro";
+---
+
+<Notification />
+<div class="box">
+<form action="https://formspree.io/f/xzbybjej_" method="post" novalidate>
+  <div class="field">
+    <label class="label">E-mail</label>
+    <div class="control">
+      <input
+        id="email"
+        class="input"
+        type="email"
+        name="email"
+        placeholder="Adres e-mail"
+        name="email"
+        required
+      />
+      <p class="help is-danger"></p>
+    </div>
+  </div>
+
+  <div class="field">
+    <label class="label">Wiadomość</label>
+    <div class="control">
+      <textarea
+        id="message"
+        class="textarea"
+        name="message"
+        placeholder="Treść wiadomości"
+        name="message"
+        required
+        minlength="10"></textarea>
+      <p class="help is-danger"></p>
+    </div>
+  </div>
+
+  <div class="control">
+    <button class="button is-link" type="submit">Wyślij</button>
+  </div>
+
+  <input class="is-hidden" name="protection" type="text" />
+</form>
+</div>
+
+<script>
+  import "./kontakt";
+</script>

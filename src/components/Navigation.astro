@@ -1,0 +1,59 @@
+---
+const url = Astro.url.pathname;
+---
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a
+      role="button"
+      class="navbar-burger"
+      aria-label="menu"
+      aria-expanded="false"
+    >
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div class="navbar-menu">
+    <div class="navbar-end">
+      <a class={url === "/" ? "navbar-item is-active" : "navbar-item"} href="/">
+        O firmie
+      </a>
+
+      <a
+        class={url === "/cennik" ? "navbar-item is-active" : "navbar-item"}
+        href="cennik"
+      >
+        Cennik
+      </a>
+
+      <a
+        class={url === "/grafika" ? "navbar-item is-active" : "navbar-item"}
+        href="grafika"
+      >
+        Grafika i moduły
+      </a>
+
+      <a
+        class={url === "/kontakt" ? "navbar-item is-active" : "navbar-item"}
+        href="kontakt"
+      >
+        Kontakt
+      </a>
+    </div>
+  </div>
+</nav>
+
+<script>
+  const burger = document.querySelector(".navbar-burger");
+  const menu = document.querySelector(".navbar-menu");
+
+  const burgerHandler = () => {
+    burger.classList.toggle("is-active");
+    menu.classList.toggle("is-active");
+  };
+
+  burger.addEventListener("click", burgerHandler);
+</script>
